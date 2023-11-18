@@ -1,2 +1,4 @@
-# sofia
-OpenSource LLM focused on asking the right questions
+# Sofia
+OpenSource LLM focused on asking the right questions. The project is meant at generating the correct LLM which produces the correct questions to ask regarding difficult to answer questions. We believe that having an AI which can answer complicated questions such as "Design an ERP for chocolate manufacturers" in a zero-shot manner is impossible and naïve to try. Instead we believe a longer inference sequence with the process bouncing between a philospher AI which reasons about which are the most meaningful questions to ask and an engineer AI which tries to answer the questions as best as possible.
+
+Sofia in this sequence would be the questioning model. Given a task, it produces the most relevant and meaningful questions. Sofia should also have some type of halting criterion, or at least hints of when to stop as sequence of questions and answers.
